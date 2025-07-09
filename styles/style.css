@@ -7,11 +7,76 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+
+/*Shared Style */
+.primary-text{
+    color:#FD6E0A;
+}
+.dark-2{
+    color:#474747;
+}
+.btn-primary{
+    color:#fff;
+    background-color: #FD6E0A;
+    padding:15px 22px;
+    border:0;
+    border-radius: 5px;
+}
+/* header */
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,right bottom;
+}
+
+
 /* nav styles */
 nav{
     display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin:0 200px;
 }
 .nav-title{
     font-weight:bolder;
     font-size:45px;
+}
+nav ul{
+    display: flex;
+    align-items:center;
+}
+nav ul li{
+    list-style-type:none;
+    margin-right:50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size:20px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin:0 38px 0 200px;
+}
+.banner-content{
+    max-width:585px;
+}
+.banner-grettings{
+    font-weight: 500;
+    font-size: 45px;
+    margin:10px;
+
+}
+.banner-title{
+    font-weight: 600;
+    font-size: 85px;
+    margin:10px;
+}
+.banner-text{
+    font-size: 18px;
+    color:#757575;
+}
+.banner-pic{
+    width:580px;
 }
