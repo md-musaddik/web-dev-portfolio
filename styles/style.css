@@ -1,4 +1,4 @@
-
+*{margin:0;padding:0;}
 .open-sans-normal{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -16,6 +16,9 @@
 .dark-2{
     color:#474747;
 }
+.dark-3{
+    color:#757575;
+}
 .btn-primary{
     color:#fff;
     background-color: #FD6E0A;
@@ -23,6 +26,11 @@
     border:0;
     border-radius: 5px;
 }
+.secondary-bg{
+    background-color: #fcede3;
+}
+
+
 /* header */
 .header{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
@@ -79,4 +87,56 @@ nav li a{
 }
 .banner-pic{
     width:580px;
+}
+/* main styles */
+main{
+    width:1140px;
+    margin:0 auto;
+}
+
+/* about */
+.about{
+    padding:130px 156px;
+    text-align:center;
+    margin-top:130px;
+    border-radius:10px;
+    
+}
+.about-title{
+    margin-bottom:40px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top:40px;
+}
+.item-description{
+    font-weight:bold;
+}
+
+/* skills */
+.skills{
+    margin-top:130px;
+    text-align:center;
+}
+.skills-description{
+    margin:30px 0;
+}
+.cards-container{
+    display:flex;
+    justify-content: space-between;
+}
+.card{
+    text-align: left;
+    width:207px;
+    padding:30px;
+    box-shadow:0 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+.card-icon{
+    margin-bottom: 15px;
+}
+.card-title{
+    padding:10px 0px;
+    font-weight: 700;
 }
